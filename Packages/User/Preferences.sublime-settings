@@ -1,6 +1,8 @@
-// Settings in here override those in "Default/Preferences.sublime-settings", and
-// are overridden in turn by file type specific settings.
 {
-	"theme": "Flatland.sublime-theme",
-	"color_scheme": "Packages/flatland/Theme - Flatland/Flatland.tmTheme"
+	"color_scheme": "Packages/flatland/Theme - Flatland/Flatland.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Flatland.sublime-theme"
 }
