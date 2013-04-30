@@ -4,7 +4,13 @@
 		"2pdf",
 		"Alignment",
 		"Clipboard History",
+		"ColorPicker",
+		"ERB Insert and Toggle Commands",
+		"FileDiffs",
+		"Git",
+		"Package Control",
 		"Rails File Switcher",
-		"Sass"
+		"Sass",
+		"SCSS"
 	]
 }
