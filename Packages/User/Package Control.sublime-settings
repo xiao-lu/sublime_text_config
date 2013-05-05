@@ -3,6 +3,7 @@
 	[
 		"2pdf",
 		"Alignment",
+		"ApplySyntax",
 		"Clipboard History",
 		"ColorPicker",
 		"ERB Insert and Toggle Commands",
@@ -11,6 +12,7 @@
 		"Package Control",
 		"Rails File Switcher",
 		"Rails Latest Migration",
+		"RSpec",
 		"rspec-snippets",
 		"Ruby on Rails snippets",
 		"Sass",
