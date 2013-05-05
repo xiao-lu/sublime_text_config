@@ -10,7 +10,11 @@
 		"Git",
 		"Package Control",
 		"Rails File Switcher",
+		"Rails Latest Migration",
+		"rspec-snippets",
+		"Ruby on Rails snippets",
 		"Sass",
-		"SCSS"
+		"SCSS",
+		"SideBarEnhancements"
 	]
 }
