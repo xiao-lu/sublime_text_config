@@ -5,6 +5,6 @@
 	[
 		"Vintage"
 	],
-	"theme": "Flatland.sublime-theme",
-	"tab_size": 2
+	"tab_size": 2,
+	"theme": "Flatland.sublime-theme"
 }

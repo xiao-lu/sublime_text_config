@@ -1,0 +1,5 @@
+{
+	"env": {
+    "GOPATH": "$/usr/local/go/bin/go"
+	}
+}
