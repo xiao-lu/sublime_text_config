@@ -1,9 +1,11 @@
 {
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"2pdf",
 		"Alignment",
 		"ApplySyntax",
+		"Case Conversion",
 		"Clipboard History",
 		"CoffeeScript",
 		"ColorPicker",
@@ -13,10 +15,15 @@
 		"FileDiffs",
 		"Git",
 		"GoSublime",
+		"Markdown Extended",
+		"MarkdownBuild",
 		"Package Control",
+		"Rails Developer Snippets",
 		"Rails File Switcher",
 		"Rails Latest Migration",
+		"Rails Migrations List",
 		"RSpec",
+		"RSpec (snippets and syntax)",
 		"rspec-snippets",
 		"Ruby on Rails snippets",
 		"Sass",
