@@ -8,6 +8,11 @@
 	// the corresponding environment(PATH) variable, if it exists.
 	"env": {},
 
+	// if set, whenever possible `GOPATH` will be set to `GS_GOPATH`.
+	// please see `Usage & Tips` `ctrl+dot,ctrl+2`
+	// section `Per-project  settings & Project-based GOPATH` for details about `GS_GOPATH`
+	"use_gs_gopath": false,
+
 	// Your shell. e.g. on Linux and OS X, if your shell bash:
 	// you may set it to ["/bin/bash", "--login", "-c", "$CMD"]
 	// it's useful to pass the --login argument in order for it run your ~/.bashrc etc.
@@ -165,6 +170,17 @@
 	// the same can be achieved ctrl+dot,ctrl+space using an output panel
 	"autocomplete_live_hint": false,
 
+	// whether or not to use named imports when the basename of the import path doesn't match the pkg name
+	// e.g. gosubli.me/go-foo would be imported as:
+	//     import (
+	//         foo "gosubli.me/go-foo"
+	//     )
+	"use_named_imports": false,
+
+	// whether or not MarGo may automatically run `go install` for packages that are missing
+	// when you `import`, or `autocomplete` them
+	"autoinst": true,
+
 	// commands to run on (post) save - list of objects of the form {"cmd": "...", "args": {...}}
 	// Any TextCommand may be run. Supported GS commands include:
 	//     gs_comp_lint - compile the pkg and report any errors
@@ -240,6 +256,10 @@
 			]
 		}
 	],
+
+	// whether or not 9o should ask Sublime Text to show(scroll to) the end of a command's output
+	// by default it will attempt to show the beginning
+	"9o_show_end": false,
 
 	// if set, 9o will run in single-instance mode instead of per-pkg
 	// the name can be any string, so you can e.g. set it per-project and maintain project-specific

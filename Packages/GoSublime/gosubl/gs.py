@@ -77,8 +77,13 @@ _default_settings = {
 	"linters": [],
 	"9o_instance": "",
 	"9o_color_scheme": "",
+	"9o_settings": {},
 	"9o_aliases": {},
+	"9o_show_end": False,
 	"gohtml_extensions": [],
+	"autoinst": False,
+	"use_gs_gopath": False,
+	"use_named_imports": False,
 }
 _settings = copy.copy(_default_settings)
 
@@ -703,8 +708,15 @@ def tm_path(name):
 
 	return 'Packages/GoSublime/%s' % d[name]
 
+def packages_dir():
+	fn = attr('gs.packages_dir')
+	if not fn:
+		fn = sublime.packages_path()
+		set_attr('gs.packages_dir', fn)
+	return fn
+
 def dist_path(*a):
-	return os.path.join(sublime.packages_path(), 'GoSublime', *a)
+	return os.path.join(packages_dir(), 'GoSublime', *a)
 
 def mkdirp(fn):
 	try:
@@ -713,7 +725,7 @@ def mkdirp(fn):
 		pass
 
 def _home_path(*a):
-	return os.path.join(sublime.packages_path(), 'User', 'GoSublime', about.PLATFORM, *a)
+	return os.path.join(packages_dir(), 'User', 'GoSublime', about.PLATFORM, *a)
 
 def home_dir_path(*a):
 	fn = _home_path(*a)

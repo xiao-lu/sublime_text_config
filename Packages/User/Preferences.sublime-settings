@@ -3,7 +3,13 @@
 	"font_size": 16,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Ruby on Rails snippets",
+		"SCSS",
+		"Sass",
+		"Vintage",
+		"rspec-snippets",
+		"SideBarEnhancements",
+		"Twitter Bootstrap Snippets"
 	],
 	"tab_size": 2,
 	"theme": "Flatland.sublime-theme"

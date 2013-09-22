@@ -1,7 +1,50 @@
 GoSublime Changes
 -----------------
 
+
+
 Note: you may need to restart Sublime Text after GoSublime updates
+
+## 13.09.07-1
+	* remove error syntax highlighting of lone percentage signs in strings
+
+## 13.07.29-1
+	* the .p method of finding packages was reverted. as a result `use_named_imports` has no effect
+
+## 13.07.28-1
+	* the behaviour of `$GS_GOPATH` has change, please see `Usage & Tips` `ctrl+dot,ctrl+2`
+	    section `Per-project  settings & Project-based GOPATH` for details
+
+	* MarGo will now attempt to automatically install packages when you import a package that doesn't exist
+	    or when completion fails. see the default settings file, `ctrl+dot,ctrl+4` for more details
+	    about the `autoinst` setting
+
+	* a new setting was added to allow using `GS_GOPATH` exclusively. see the default settings file,
+	    `ctrl+dot,ctrl+4` for more details on the `use_gs_gopath` setting
+
+	* a new setting to allow importing packages with their package name was added.
+	    see the default settings file, `ctrl+dot,ctrl+4` for more details on the `use_named_imports` setting
+
+
+## 13.07.23-1
+	* update gocode
+
+## 13.07.22-1
+	* update gocode
+
+## 13.07.17-1
+	* the behaviour of 9o output scrolling has changed. instead of attempting to show the end
+	    of the output, the start of the output will be shown instead.
+	    if you preferred the old behaviour, use the new setting `"9o_show_end": true`
+
+## 13.07.14-1
+	* fix comment toggling when the `Go` package is disabled
+
+## 13.07.12-1
+	* update gocode
+
+## 13.07.06-2
+	* the symbols [ ] ( ) { } , . are now treated as puctuation (they might be syntax highlighted)
 
 ## 13.07.06-1
 	* the various operator groups, in addition to semi-colons are now treated as `operators` so they should now be syntax highlighted

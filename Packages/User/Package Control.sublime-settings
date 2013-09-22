@@ -10,6 +10,7 @@
 		"CoffeeScript",
 		"ColorPicker",
 		"CTags",
+		"Emmet",
 		"ERB Insert and Toggle Commands",
 		"ERB Snippets",
 		"FileDiffs",
@@ -29,6 +30,7 @@
 		"Sass",
 		"SCSS",
 		"SideBarEnhancements",
+		"SublimeEvernote",
 		"Twitter Bootstrap Snippets"
 	]
 }

@@ -1,148 +1,15 @@
 {
 	"folder_history":
 	[
+		"/Users/lxxdn/Documents/rails_projects/ruby-china",
 		"/Users/lxxdn/Documents/rails_projects/forum",
 		"/Users/lxxdn/Documents/rails_projects"
 	],
-	"last_window_id": 3,
+	"last_window_id": 4,
 	"settings":
 	{
 		"new_window_height": 1036.0,
 		"new_window_settings":
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 96.0,
-				"selected_items":
-				[
-					[
-						"list pac",
-						"Package Control: List Packages"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					]
-				],
-				"width": 435.0
-			},
-			"console":
-			{
-				"height": 0.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
-			],
-			"find":
-			{
-				"height": 0.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true
-		},
-		"new_window_width": 1916.0
-	},
-	"windows":
-	[
 		{
 			"auto_complete":
 			{
@@ -154,62 +21,23 @@
 					]
 				]
 			},
-			"buffers":
-			[
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 1574,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/comment.rb",
-					"settings":
-					{
-						"buffer_size": 227,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
-					"settings":
-					{
-						"buffer_size": 72,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 98,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/spec/factories/users.rb",
-					"settings":
-					{
-						"buffer_size": 308,
-						"line_ending": "Unix"
-					}
-				}
-			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 374.0,
+				"height": 96.0,
 				"selected_items":
 				[
 					[
-						"link",
-						"Snippet: link_to (path)"
+						"listpacka",
+						"Package Control: List Packages"
 					],
 					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"link",
+						"Snippet: link_to (path)"
 					],
 					[
 						"listpa",
@@ -237,15 +65,20 @@
 			},
 			"file_history":
 			[
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/homes_controller.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/spec/models/post_spec.rb",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
 				"/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
 				"/Users/lxxdn/Dropbox/Notes/AdminRéseau.md",
-				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/homes_controller.rb",
 				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 36.0
 			},
 			"find_in_files":
 			{
@@ -259,6 +92,12 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"super+l",
+					"ctrl+d",
+					"ctrl+shift+k",
+					"super+d",
+					"ctrl+d",
+					"ctrl+shift"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -273,153 +112,6 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/Users/lxxdn/Documents/rails_projects/forum"
-				}
-			],
-			"groups":
-			[
-				{
-					"selected": 4,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
-							"settings":
-							{
-								"buffer_size": 1574,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										615,
-										615
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/comment.rb",
-							"settings":
-							{
-								"buffer_size": 227,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										226,
-										226
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
-							"settings":
-							{
-								"buffer_size": 72,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										61,
-										61
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
-							"settings":
-							{
-								"buffer_size": 98,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										97,
-										97
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/spec/factories/users.rb",
-							"settings":
-							{
-								"buffer_size": 308,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										212,
-										212
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/RSpec/RSpec.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
 			"incremental_find":
 			{
 				"height": 0.0
@@ -451,6 +143,574 @@
 				]
 			},
 			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"post",
+						"app/models/post.rb"
+					],
+					[
+						"rout",
+						"config/routes.rb"
+					],
+					[
+						"user",
+						"spec/factories/users.rb"
+					],
+					[
+						"model/comment",
+						"app/models/comment.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 244.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1916.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"if",
+						"ife	if … else … end"
+					],
+					[
+						"lip",
+						"lip	link_to (path)"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/comment.rb",
+					"settings":
+					{
+						"buffer_size": 230,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
+					"settings":
+					{
+						"buffer_size": 72,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 111,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/posts_controller.rb",
+					"settings":
+					{
+						"buffer_size": 442,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 57,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/create.html.erb",
+					"settings":
+					{
+						"buffer_size": 101,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 156,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/post.rb",
+					"settings":
+					{
+						"buffer_size": 328,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 31,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 1618,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 140.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"list pa",
+						"Package Control: List Packages"
+					],
+					[
+						"listpacka",
+						"Package Control: List Packages"
+					],
+					[
+						"link",
+						"Snippet: link_to (path)"
+					],
+					[
+						"listpa",
+						"Package Control: List Packages"
+					],
+					[
+						"list pac",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 561.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
+				"/Users/lxxdn/Documents/rails_projects/ruby-china/app/models/user.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/spec/factories/users.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/config/routes.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/create.html.erb",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/homes_controller.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/spec/models/post_spec.rb",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
+				"/Users/lxxdn/Dropbox/Notes/AdminRéseau.md",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 36.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"title",
+					"has_many",
+					"super+l",
+					"ctrl+d",
+					"ctrl+shift+k",
+					"super+d",
+					"ctrl+d",
+					"ctrl+shift"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/lxxdn/Documents/rails_projects/forum"
+				},
+				{
+					"path": "/Users/lxxdn/Documents/rails_projects/ruby-china"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/comment.rb",
+							"settings":
+							{
+								"buffer_size": 230,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										221,
+										221
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
+							"settings":
+							{
+								"buffer_size": 72,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										61,
+										61
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
+							"settings":
+							{
+								"buffer_size": 111,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										94,
+										107
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/posts_controller.rb",
+							"settings":
+							{
+								"buffer_size": 442,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										430,
+										430
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/show.html.erb",
+							"settings":
+							{
+								"buffer_size": 57,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										57,
+										57
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/create.html.erb",
+							"settings":
+							{
+								"buffer_size": 101,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										98,
+										98
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/new.html.erb",
+							"settings":
+							{
+								"buffer_size": 156,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										145,
+										145
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/post.rb",
+							"settings":
+							{
+								"buffer_size": 328,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										90,
+										90
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/helpers/application_helper.rb",
+							"settings":
+							{
+								"buffer_size": 31,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										26,
+										26
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
+							"settings":
+							{
+								"buffer_size": 1618,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1046,
+										1046
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 36.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.GoSublime-main-output":
+			{
+				"height": 122.0
+			},
 			"position": "4 0 1916 1058 0 0 1920 1058 ",
 			"replace":
 			{
@@ -463,8 +723,20 @@
 				"selected_items":
 				[
 					[
+						"posts",
+						"forum/app/controllers/posts_controller.rb"
+					],
+					[
 						"user",
-						"spec/factories/users.rb"
+						"app/models/user.rb"
+					],
+					[
+						"post",
+						"app/models/post.rb"
+					],
+					[
+						"rout",
+						"config/routes.rb"
 					],
 					[
 						"model/comment",
