@@ -198,7 +198,7 @@
 				[
 					[
 						"if",
-						"if	Ruby if"
+						"ife	if … else … end"
 					],
 					[
 						"lip",
@@ -236,18 +236,15 @@
 					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/posts_controller.rb",
 					"settings":
 					{
-						"buffer_size": 399,
+						"buffer_size": 442,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "<p>Post</p>",
 					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/show.html.erb",
-					"file_size": 7,
-					"file_write_time": 1379816232000000,
 					"settings":
 					{
-						"buffer_size": 11,
+						"buffer_size": 57,
 						"line_ending": "Unix"
 					}
 				},
@@ -340,6 +337,7 @@
 			},
 			"file_history":
 			[
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
 				"/Users/lxxdn/Documents/rails_projects/ruby-china/app/models/user.rb",
 				"/Users/lxxdn/Documents/rails_projects/forum/spec/factories/users.rb",
 				"/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
@@ -492,15 +490,15 @@
 							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/posts_controller.rb",
 							"settings":
 							{
-								"buffer_size": 399,
+								"buffer_size": 442,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										387,
-										387
+										430,
+										430
 									]
 								],
 								"settings":
@@ -520,15 +518,15 @@
 							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/show.html.erb",
 							"settings":
 							{
-								"buffer_size": 11,
+								"buffer_size": 57,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										7,
-										7
+										57,
+										57
 									]
 								],
 								"settings":
