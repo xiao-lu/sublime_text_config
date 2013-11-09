@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/Users/lxxdn/Documents/ifeelgoods_beta",
 		"/Users/lxxdn/Documents/rails_projects/ruby-china",
 		"/Users/lxxdn/Documents/rails_projects/forum",
 		"/Users/lxxdn/Documents/rails_projects"
@@ -197,6 +198,46 @@
 				"selected_items":
 				[
 					[
+						"cou",
+						"countries_hash"
+					],
+					[
+						"counti",
+						"courntiresHash"
+					],
+					[
+						"av",
+						"availableCountries"
+					],
+					[
+						"stat",
+						"state1"
+					],
+					[
+						"sta",
+						"state1"
+					],
+					[
+						"cate",
+						"categories_choice"
+					],
+					[
+						"rewa",
+						"reward_group_choice"
+					],
+					[
+						"it",
+						"item"
+					],
+					[
+						"ven",
+						"vendor_choice"
+					],
+					[
+						"pa",
+						"PATH"
+					],
+					[
 						"if",
 						"ife	if … else … end"
 					],
@@ -209,82 +250,10 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/comment.rb",
+					"file": "/Users/lxxdn/Documents/ifeelgoods_beta/app/controllers/admin/reward_groups_controller.rb",
 					"settings":
 					{
-						"buffer_size": 230,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
-					"settings":
-					{
-						"buffer_size": 72,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 111,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/posts_controller.rb",
-					"settings":
-					{
-						"buffer_size": 442,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 57,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/create.html.erb",
-					"settings":
-					{
-						"buffer_size": 101,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/new.html.erb",
-					"settings":
-					{
-						"buffer_size": 156,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/post.rb",
-					"settings":
-					{
-						"buffer_size": 328,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/helpers/application_helper.rb",
-					"settings":
-					{
-						"buffer_size": 31,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 1618,
+						"buffer_size": 4369,
 						"line_ending": "Unix"
 					}
 				}
@@ -292,12 +261,32 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 140.0,
+				"height": 74.0,
 				"selected_items":
 				[
 					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"remoe",
+						"Emmet: Remove Tag"
+					],
+					[
+						"todo",
+						"Set Syntax: iTodo"
+					],
+					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"package list",
+						"Package Control: List Packages"
 					],
 					[
 						"list pa",
@@ -337,20 +326,38 @@
 			},
 			"file_history":
 			[
+				"/Users/lxxdn/Documents/ifeelgoods_beta/app/views/admin/reward_groups/index.html.erb",
+				"/Users/lxxdn/Documents/ifeelgoods_beta/app/views/admin/virtual_currencies/new.html.erb",
+				"/Users/lxxdn/Documents/ifeelgoods_beta/app/views/admin/virtual_currencies/_form.html.erb",
+				"/Users/lxxdn/Desktop/todo",
+				"/Users/lxxdn/Documents/ifeelgoods_beta/app/controllers/admin/virtual_currencies_controller.rb",
+				"/Users/lxxdn/Documents/ifeelgoods_beta/app/views/admin/virtual_currencies/index.html.erb",
+				"/Users/lxxdn/Documents/ifeelgoods_beta/app/models/virtual_currency.rb",
+				"/Users/lxxdn/Documents/ifeelgoods_beta/lib/tasks/dump_tasks.rake",
+				"/Users/lxxdn/Desktop/helloworld.cpp",
+				"/Users/lxxdn/.zshrc",
+				"/Users/lxxdn/Desktop/helloworld.c",
 				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
+				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/GoSublime/USAGE.md",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/helpers/application_helper.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/models/post.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/new.html.erb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/create.html.erb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/posts_controller.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/models/comment.rb",
+				"/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/show.html.erb",
 				"/Users/lxxdn/Documents/rails_projects/ruby-china/app/models/user.rb",
 				"/Users/lxxdn/Documents/rails_projects/forum/spec/factories/users.rb",
-				"/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
 				"/Users/lxxdn/Documents/rails_projects/forum/config/routes.rb",
-				"/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/create.html.erb",
 				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
 				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/homes_controller.rb",
 				"/Users/lxxdn/Documents/rails_projects/forum/spec/models/post_spec.rb",
 				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-				"/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
-				"/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
 				"/Users/lxxdn/Dropbox/Notes/AdminRéseau.md",
 				"/Users/lxxdn/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 			],
@@ -370,6 +377,35 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"alert",
+					"RewardGroundsValue",
+					"countries_hash",
+					"REwardGroundsValue",
+					"availableCountries",
+					"jQuery.get('/virtual_currencies/change_parameters?country=' + state1 +'&reward_group=' + state2+'&categories='+state3, function(data)",
+					"var state1 = $('#delivery_mode_choice').val();\n    var state2 = $('#vendor_choice').val();\n    var state3 = $('#categories_choice').val();\n    jQuery.get('/reward_groups/change_parameters?delivery_mode=' + state1 +'&vendor=' + state2+'&categories='+state3, function(data){\n      $(\"#reward_group_data\").html(data);\n    })\n    return false;",
+					" var state1 = $('#delivery_mode_choice').val();\n      var state2 = $('#vendor_choice').val();\n      var state3 = $('#categories_choice').val();\n      jQuery.get('/reward_groups/change_parameters?delivery_mode=' + state1 +'&vendor=' + state2+'&categories='+state3, function(data){\n        $(\"#reward_group_data\").html(data);\n      })\n      return false;",
+					"var state1 = $('#delivery_mode_choice').val();\n      var state2 = $('#vendor_choice').val();\n      var state3 = $('#categories_choice').val();\n      jQuery.get('/reward_groups/change_parameters?delivery_mode=' + state1 +'&vendor=' + state2+'&categories='+state3, function(data){\n        $(\"#reward_group_data\").html(data);\n      })\n      return false;",
+					"delivery_modes",
+					"var state1 = $('#delivery_mode_choice').val();\n    var state2 = $('#vendor_choice').val();\n    var state3 = $('#categories_choice').val();\n    jQuery.get('/reward_groups/change_parameters?delivery_mode=' + state1 +'&vendor=' + state2+'&categories='+state3, function(data){\n      $(\"#reward_group_data\").html(data);\n    })\n    return false;",
+					"$(\"#categories_choice\")",
+					"var state1 = $('#delivery_mode_choice').val();\n    var state2 = $('#vendor_choice').val();\n    var state3 = $('#categories_choice').val();\n    jQuery.get('/reward_groups/change_parameters?delivery_mode=' + state1 +'&vendor=' + state2+'&categories='+state3, function(data){\n      $(\"#reward_group_data\").html(data);\n    })\n    return false;",
+					"var state1 = $('#delivery_mode_choice').val();\n        var state2 = ui.item.label;\n        var state3 = $('#categories_choice').val();\n        jQuery.get('/reward_groups/change_parameters?delivery_mode=' + state1 +'&vendor=' + state2+'&categories='+state3, function(data){\n          $(\"#reward_group_data\").html(data);\n        })\n        return false;",
+					"var state1 = $('#delivery_mode_choice').val();\n    var state2 = $('#vendor_choice').val();\n    var state3 = $('#categories_choice').val();\n    jQuery.get('/reward_groups/change_parameters?delivery_mode=' + state1 +'&vendor=' + state2+'&categories='+state3, function(data){\n      $(\"#reward_group_data\").html(data);\n    })\n    return false;",
+					"autocomplete",
+					"to_json",
+					"All",
+					":selected",
+					"select#categories_choice",
+					"select#reward_group_choice",
+					"select#country_choice",
+					"country_choice",
+					"delivery_mode",
+					"availableDeliverModes",
+					"autocomplete",
+					"availableDeliverMode",
+					"availableTags",
+					"virtual_currency_provider_id",
 					"title",
 					"has_many",
 					"super+l",
@@ -395,270 +431,29 @@
 			"folders":
 			[
 				{
-					"path": "/Users/lxxdn/Documents/rails_projects/forum"
-				},
-				{
-					"path": "/Users/lxxdn/Documents/rails_projects/ruby-china"
+					"path": "/Users/lxxdn/Documents/ifeelgoods_beta"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/comment.rb",
+							"file": "/Users/lxxdn/Documents/ifeelgoods_beta/app/controllers/admin/reward_groups_controller.rb",
 							"settings":
 							{
-								"buffer_size": 230,
+								"buffer_size": 4369,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										221,
-										221
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/home_controller.rb",
-							"settings":
-							{
-								"buffer_size": 72,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										61,
-										61
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/home/index.html.erb",
-							"settings":
-							{
-								"buffer_size": 111,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										94,
-										107
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/controllers/posts_controller.rb",
-							"settings":
-							{
-								"buffer_size": 442,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										430,
-										430
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/show.html.erb",
-							"settings":
-							{
-								"buffer_size": 57,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										57,
-										57
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/create.html.erb",
-							"settings":
-							{
-								"buffer_size": 101,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										98,
-										98
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/views/posts/new.html.erb",
-							"settings":
-							{
-								"buffer_size": 156,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										145,
-										145
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/post.rb",
-							"settings":
-							{
-								"buffer_size": 328,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										90,
-										90
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 8,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/helpers/application_helper.rb",
-							"settings":
-							{
-								"buffer_size": 31,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										26,
-										26
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 9,
-							"file": "/Users/lxxdn/Documents/rails_projects/forum/app/models/user.rb",
-							"settings":
-							{
-								"buffer_size": 1618,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1046,
-										1046
+										635,
+										635
 									]
 								],
 								"settings":
@@ -711,6 +506,14 @@
 			{
 				"height": 122.0
 			},
+			"output.MarGo-output":
+			{
+				"height": 122.0
+			},
+			"output.exec":
+			{
+				"height": 122.0
+			},
 			"position": "4 0 1916 1058 0 0 1920 1058 ",
 			"replace":
 			{
@@ -722,6 +525,18 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"virtu",
+						"app/models/virtual_currency.rb"
+					],
+					[
+						"dump",
+						"lib/tasks/dump_tasks.rake"
+					],
+					[
+						"reward_group_cont",
+						"app/controllers/admin/reward_groups_controller.rb"
+					],
 					[
 						"posts",
 						"forum/app/controllers/posts_controller.rb"

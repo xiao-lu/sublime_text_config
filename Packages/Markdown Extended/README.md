@@ -123,6 +123,8 @@ _Note that in order for a language to be highlighted properly, you must have the
 * `less`
 * `md|markdown`
 * `perl`
+* `python`
+* `r`
 * `ruby`
 * `sass`
 * `scss`

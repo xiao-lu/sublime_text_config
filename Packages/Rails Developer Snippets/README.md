@@ -7,13 +7,13 @@ I started this project as I had over 500 ruby/rails/rspec snippets installed - e
    Search for "Rails Developer Snippets" via Package Control otherwise...
 ### Mac OSX
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
-    git clone git@github.com:j10io/sublime-railsdev.git
+    git clone git@github.com:j10io/railsdev-sublime-snippets.git
 ### Linux
     cd ~/.config/sublime-text-2/Packages
-    git clone git@github.com:j10io/sublime-railsdev.git
+    git clone git@github.com:j10io/railsdev-sublime-snippets.git
 ### Windows
     cd Users/<user>/AppData/Roaming/Sublime\ Text\ 2/Packages/
-    git clone git@github.com:j10io/sublime-railsdev.git
+    git clone git@github.com:j10io/railsdev-sublime-snippets.git
 ### Sublime Text 3 - Mac OSX
     cd ~/Library/Application Support/Sublime Text 3/Packages/User
     git clone git@github.com:j10io/railsdev-sublime-snippets.git
@@ -25,10 +25,10 @@ I started this project as I had over 500 ruby/rails/rspec snippets installed - e
 ## Some support for
  * [capybara](https://github.com/jnicklas/capybara) Acceptance test framework for web applications
  * [shoulda](https://github.com/thoughtbot/shoulda) a validations gem by thoughtbot
- 
+
 ## My Setup (I'm on OSX... your mileage may vary)
 
- 1. Install the dependencies above. 
+ 1. Install the dependencies above.
  2. It's worth noting, whilst I wanted to keep **some** of the functionality that Sublime Text provides for Ruby/Rails by default, as well as **some** functionality that the RSpec plugin provides, to avoid **snippet collisions**, I deleted all other Ruby/Rails/RSpec .sublime-snippet files from:
 
  * ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Ruby

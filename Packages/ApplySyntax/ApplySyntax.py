@@ -52,10 +52,15 @@ class ApplySyntaxCommand(sublime_plugin.EventListener):
         self.settings_file = self.plugin_name + '.sublime-settings'
         self.reraise_exceptions = False
 
+    def get_setting(self, name, default = None):
+        plugin_settings = sublime.load_settings(self.settings_file)
+        active_settings = self.view.settings() if self.view else {}
+
+        return active_settings.get(name, plugin_settings.get(name, default))
+
     def on_new(self, view):
         self.ensure_user_settings()
-        settings = sublime.load_settings(self.settings_file)
-        name = settings.get("new_file_syntax")
+        name = self.get_setting("new_file_syntax")
         if name:
             self.view = view
             self.set_syntax(name)
@@ -103,41 +108,47 @@ class ApplySyntaxCommand(sublime_plugin.EventListener):
         # be intelligent about this and replace / and \ with os.path.sep to get to
         # a reasonable starting point
 
-        path = os.path.dirname(name)
-        name = os.path.basename(name)
+        if not isinstance(name, list):
+            names = [name]
+        else:
+            names = name
+        for n in names:
+            path = os.path.dirname(n)
+            name = os.path.basename(n)
 
-        if not path:
-            path = name
+            if not path:
+                path = name
 
-        file_name = name + '.tmLanguage'
-        new_syntax = sublime_format_path(os.path.join("Packages", path, file_name))
-        file_path = os.path.join(sublime.packages_path(), path, file_name)
+            file_name = name + '.tmLanguage'
+            new_syntax = sublime_format_path(os.path.join("Packages", path, file_name))
+            file_path = os.path.join(sublime.packages_path(), path, file_name)
 
-        current_syntax = self.view.settings().get('syntax')
+            current_syntax = self.view.settings().get('syntax')
 
-        # only set the syntax if it's different
-        if new_syntax != current_syntax:
-            # let's make sure it exists first!
-            if os.path.exists(file_path):
-                self.view.set_syntax_file(new_syntax)
-                log('Syntax set to ' + name + ' using ' + new_syntax)
+            # only set the syntax if it's different
+            if new_syntax != current_syntax:
+                # let's make sure it exists first!
+                if os.path.exists(file_path):
+                    self.view.set_syntax_file(new_syntax)
+                    log('Syntax set to ' + name + ' using ' + new_syntax)
+                    break
+                else:
+                    log('Syntax file for ' + name + ' does not exist at ' + new_syntax)
             else:
-                log('Syntax file for ' + name + ' does not exist at ' + new_syntax)
+                break
 
     def load_syntaxes(self):
         self.ensure_user_settings()
         settings = sublime.load_settings(self.settings_file)
         self.reraise_exceptions = settings.get("reraise_exceptions")
         # load the default syntaxes
-        default_syntaxes = settings.get("default_syntaxes")
-        if default_syntaxes is None:
-            default_syntaxes = []
+        default_syntaxes = self.get_setting("default_syntaxes", [])
         # load any user-defined syntaxes
-        user_syntaxes = settings.get("syntaxes")
-        if user_syntaxes is None:
-            user_syntaxes = []
+        user_syntaxes = self.get_setting("syntaxes", [])
+        # load any project-defined syntaxes
+        project_syntaxes = self.get_setting("project_syntaxes", [])
 
-        self.syntaxes = user_syntaxes + default_syntaxes
+        self.syntaxes = project_syntaxes + user_syntaxes + default_syntaxes
 
     def syntax_matches(self, syntax):
         rules = syntax.get("rules")
