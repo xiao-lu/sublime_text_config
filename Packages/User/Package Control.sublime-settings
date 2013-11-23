@@ -15,6 +15,10 @@
 		"ERB Snippets",
 		"FileDiffs",
 		"Git",
+		"IndentGuides",
+		"JavaScript Snippets",
+		"jQuery",
+		"jQuery Snippets pack",
 		"Markdown Extended",
 		"MarkdownBuild",
 		"Package Control",
@@ -30,6 +34,7 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeEvernote",
+		"Sublimerge Pro",
 		"Twitter Bootstrap Snippets"
 	]
 }
