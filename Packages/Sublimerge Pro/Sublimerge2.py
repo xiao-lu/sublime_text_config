@@ -25,10 +25,14 @@ def plugin_loaded():
 
 try:
     from sublimerge.sublimerge_commands import *
+    from sublimerge.sublimerge_diff_commands import *
+    from sublimerge.sublimerge_editor_commands import *
     from sublimerge.sublimerge_events_listener import SublimergeEventsListener
 
 except:
     from .sublimerge.sublimerge_commands import *
+    from .sublimerge.sublimerge_diff_commands import *
+    from .sublimerge.sublimerge_editor_commands import *
     from .sublimerge.sublimerge_events_listener import SublimergeEventsListener
 
 if st_ver == 2:

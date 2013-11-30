@@ -20,7 +20,7 @@ In diff view:
     [ctrl]+[alt]+[.] - merge selected change(s) from left to right
     [ctrl]+[alt]+[/] + [,] - merge all changes from right to left
     [ctrl]+[alt]+[/] + [.] - merge all changes from left to right
-    [ctrl]+[alt]+[enter] - toggle edit mode
+    [ctrl]+[alt]+[i] - toggle edit mode
     [ctrl]+[alt]+[left click] - select/deselect change block (multiple selection is possible)
     [ctrl]+[shift]+[left click] - merge selected changes from left to right
     [ctrl]+[shift]+[right click] - merge selected changes from right to left
