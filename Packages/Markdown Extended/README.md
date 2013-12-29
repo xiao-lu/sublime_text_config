@@ -121,6 +121,7 @@ _Note that in order for a language to be highlighted properly, you must have the
 * `lodash`
 * `handlebars|hbs`: requires the Sublime Text [Handlebars](https://github.com/daaain/Handlebars) package
 * `html|html5`
+* `jade`
 * `java`
 * `javascript|js`
 * `json`
@@ -131,6 +132,7 @@ _Note that in order for a language to be highlighted properly, you must have the
 * `perl`
 * `ruby`
 * `sass`
+* `scala`
 * `scss`
 * `shell`
 * `bash`

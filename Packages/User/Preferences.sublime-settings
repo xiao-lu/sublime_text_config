@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/flatland/Theme - Flatland/Flatland.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
 	"font_size": 16,
 	"ignored_packages":
 	[
@@ -11,5 +11,5 @@
 		"Twitter Bootstrap Snippets"
 	],
 	"tab_size": 2,
-	"theme": "Flatland.sublime-theme"
+	"theme": "Night.sublime-theme"
 }
