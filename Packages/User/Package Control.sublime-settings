@@ -4,7 +4,7 @@
 	[
 		"2pdf",
 		"Alignment",
-		"ApplySyntax",
+		"BracketHighlighter",
 		"Case Conversion",
 		"Clipboard History",
 		"CoffeeScript",
@@ -36,6 +36,7 @@
 		"SublimeEvernote",
 		"Sublimerge Pro",
 		"Theme - Night",
+		"Todo Manager",
 		"Tomorrow Color Schemes",
 		"TrailingSpaces",
 		"Twitter Bootstrap Snippets"
