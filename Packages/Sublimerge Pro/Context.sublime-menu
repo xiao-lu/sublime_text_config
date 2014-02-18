@@ -9,6 +9,12 @@
         }, {
             "caption": "-"
         }, {
+            "command": "sublimerge_toggle_setting",
+            "args": {"setting": "three_way_navigate_all"},
+            "checkbox": true
+        }, {
+            "caption": "-"
+        }, {
             "command": "sublimerge_merge_left"
         }, {
             "command": "sublimerge_merge_right"
@@ -45,6 +51,10 @@
         }, {
             "caption": "-"
         }, {
+            "command": "sublimerge_show_unsaved_changes"
+        }, {
+            "caption": "-"
+        }, {
             "command": "sublimerge_custom_comparison"
         }, {
             "caption": "-"
@@ -69,8 +79,6 @@
         }, {
             "command": "sublimerge_swap_view",
             "checkbox": true
-        }, {
-            "command": "sublimerge_empty"
         }, {
             "command": "sublimerge_take_snapshot"
         }, {

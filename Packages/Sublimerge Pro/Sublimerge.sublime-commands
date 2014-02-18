@@ -8,12 +8,16 @@
     "command": "sublimerge_compare_to_revision"
   },
   {
-    "caption": "Compare Revision to Revision...",
+    "caption": "Sublimerge: Compare Revision to Revision...",
     "command": "sublimerge_compare_revision_to_revision"
   },
   {
     "caption": "Sublimerge: Show Changes Introduced in Revision...",
     "command": "sublimerge_show_changes_in_revision"
+  },
+  {
+    "caption": "Sublimerge: Show Unsaved Changes",
+    "command": "sublimerge_show_unsaved_changes"
   },
   {
     "caption": "Sublimerge: Compare Selections...",
@@ -36,7 +40,15 @@
       "command": "sublimerge_compare_to_clipboard"
   },
   {
-    "caption": "Sublimerge: Go to Next Difference",
+    "caption": "Sublimerge: Swap View",
+    "command": "sublimerge_swap_view"
+  },
+  {
+    "caption": "Sublimerge: Go to Previous Change",
+    "command": "sublimerge_go_up"
+  },
+  {
+    "caption": "Sublimerge: Go to Next Change",
     "command": "sublimerge_go_down"
   },
   {
@@ -66,11 +78,19 @@
     "command": "sublimerge_end_edit"
   },
   {
-    "command": "Sublimerge: Take Snapshot",
-    "args": { "group": -1, "index": -1 }
+    "caption": "Sublimerge: Take Snapshot",
+    "command": "sublimerge_take_snapshot"
   },
   {
-    "command": "Sublimerge: Revert to Snapshot",
-    "args": { "group": -1, "index": -1 }
+    "caption": "Sublimerge: Revert to Snapshot",
+    "command": "sublimerge_restore_snapshot"
+  },
+  {
+    "caption": "Sublimerge: Replace Snapshot",
+    "command": "sublimerge_replace_snapshot"
+  },
+  {
+    "caption": "Sublimerge: Remove Snapshot",
+    "command": "sublimerge_remove_snapshot"
   }
 ]

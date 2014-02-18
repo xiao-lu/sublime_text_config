@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[class ${1:User}sController < ApplicationController
-	before_filter :find_${2:user}, except [:index, :new, :create]
+	before_action :find_${2:user}, except [:index, :new, :create]
 
 	def index
 		@${2:user}s = ${1:User}.all
